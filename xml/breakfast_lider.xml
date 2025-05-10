@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="../xslt/breakfast_lider.xslt"?>
+<info>
+   <back>
+      <url1>../img/breakfast.png</url1>
+   </back>
+   <span>Завтрак</span>
+   <recept>
+      <namerecept>Йогурт с Бананом и Миндалем</namerecept>
+      <span>Ингредиенты</span>
+      <img src="../img/breakfast.png"/>
+      <one>1 стакан натурального йогурта</one>
+      <two>1 банан</two>
+      <three>10-15 миндальных орехов</three>
+      <four>Мед или сахар по желанию</four>
+      <prepar_text>Способ приготоволения</prepar_text>
+      <preparation>
+         Начните с того, чтобы выложить стакан натурального йогурта в миску. 
+         Нарежьте банан кружочками и выложите его на йогурт. Добавьте миндальные орехи сверху.
+      </preparation>
+       <preparation2>
+         Если хотите, полейте медом или добавьте сахар по вкусу. 
+         Подавайте сразу, это отличный вариант для легкого завтрака или перекуса. 
+      </preparation2>
+      <supply>Приятного аппетита!</supply>
+   </recept>
+   <footer>
+      <span>Мы в соц.сетях</span>
+      <img1 src="../img/facebook.svg"/>
+      <img2 src="../img/instagram.svg"/>
+      <img3 src="../img/youtube.svg"/>
+   </footer>
+   <text_button>Вернуться на главную</text_button>
+</info>

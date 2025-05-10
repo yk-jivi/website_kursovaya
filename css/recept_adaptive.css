@@ -1,0 +1,128 @@
+@media screen and (max-width: 1440px) {
+    body {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin: 0;
+    }
+
+    .main_center {
+        margin-top: 30px;
+        margin-bottom: 60px;
+    }
+
+    .lider_div {
+        width: 100%;
+    }
+    
+    .lider_text {
+        font-size: 25px;
+    }
+
+    .name_recept {
+        font-size: 25px;
+    }
+    .nav_center {
+        height: 60px;
+    }
+    .text_center {
+        border-bottom: 2px solid #f0ebe3;
+        border-top: 2px solid #f0ebe3;
+        background-color: rgb(30, 30, 30, 0.3);
+        margin-top: 30px;
+        padding: 10px;
+    }
+    .ingredients {
+        font-size: 20px;
+        margin-top: 30px;
+    }
+    .lider_img {
+        width: 300px;
+        height: 330px;
+        margin: 0 auto 50px;
+    }
+
+    .container {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .preparation {
+        width: auto;
+        padding: 30px;
+    }
+
+    .prep_text {
+        font-size: 25px;    
+    }
+
+    .text_info {
+        font-size: 18px;
+        text-align: justify;
+    }
+
+    .end {
+        text-align: center;
+    }
+
+    .block_footer {
+        height: 100px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        border-radius: 10px 10px 0 0;
+    }
+
+    .text_footer {
+        font-size: 20px;
+    }
+
+    .icon {
+        width: 25px;
+        height: 25px;
+    }
+    .togohomepage {
+        margin-top: 50px;
+        margin-bottom: 0px;
+        font-size: 18px;
+        padding: 10px;
+    }
+}
+
+@media screen and (min-width: 426px) and (max-width: 768px)
+{
+    .lider_img {
+        width: auto;
+        left: auto;
+        right: auto;
+    }
+}
+
+@media screen and (min-width:769px) and (max-width: 1440px)
+{
+    .container{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+    }
+    .lider_img {
+        margin-right: 100px;
+    }
+
+    .text_center {
+        background-color: none;
+        margin-top: 0px;
+    }
+    .lider_img {
+        width: auto;
+        margin: 0;
+        margin-right: 30px;
+    }
+
+    .preparation {
+        margin-left: 200px;
+        margin-right: 200px;
+    }
+}

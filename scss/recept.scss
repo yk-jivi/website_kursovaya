@@ -1,0 +1,205 @@
+$marginrl: 150px;
+$null: 0;
+$paddinglf: 1%;
+$poscenter: center;
+$px100: 100px;
+$percentages100: 100%;
+$colblack: rgb(30, 30, 30);
+$colorblock: #f0ebe3;
+$px150: 150px;
+
+
+//Главный контейнер
+.lider_div {
+    width: auto;
+    height: max-content;
+    padding-left: $paddinglf;
+    padding-right: $paddinglf;
+    background-color: rgba(47, 47, 47, 0.5);
+    backdrop-filter: blur(10px);
+    background-image: radial-gradient(circle, #6b6b6b 1px, transparent 1px);
+    background-size: 20px 20px;
+}
+//-----------------
+
+//Стили nav
+.nav {
+    display: flex;
+    align-items: $poscenter;
+    justify-content: $poscenter;
+    width: $percentages100;
+    height: $px100;
+    background: $colorblock;
+    color: $colblack;
+    border-radius: 0 0 20px 20px;
+}
+.nav_center {
+    display: flex;
+    flex-direction: column;
+    align-items: $poscenter;
+    justify-content: $poscenter;
+}
+.lider_text {
+    font-size: 40px;
+    font-weight: bold;
+}
+//-----------------
+
+//Cтили main
+.main_center {
+    margin-top: $px100;
+    display: flex;
+    flex-direction: column;
+    align-items: $poscenter;
+    justify-content: $poscenter;
+    margin-bottom: $px100;
+}
+
+//Стили контейнера с информацией
+.container {
+    display: flex;
+    flex-direction: row;
+    margin-bottom: $px100;
+}
+
+//img
+.lider_img {
+    object-fit: cover;
+    border-radius: 20px;
+    width: 80%;
+    height: 500px;
+    margin-right: $px100;
+}
+
+//Стили текста, информация
+.name_recept {
+    font-size: 40px;
+    font-weight: bold;
+    color: $colorblock;
+}
+
+.ingredients {
+    display: block;
+    font-size: 30px;
+    font-weight: bold;
+    margin-top: 50px;
+    color: $colorblock
+}
+
+.element {
+    font-size: 20px;
+    color: $colorblock;
+}
+
+.name_recept, .element, .ingredients {
+    color: white;
+}
+
+//Стили для блока с текстом
+.text_center {
+    display: flex;
+    flex-direction: column;
+    align-items: $poscenter;
+    justify-content: $poscenter;
+}
+.text_center .name_recept {
+    text-align: $poscenter;
+}
+
+//Стили способа приготовления
+.preparation {
+    display: flex;
+    flex-direction: column;
+    align-items: $poscenter;
+    justify-content: $poscenter;
+    text-align: $poscenter;
+    width: 50%;
+    height: auto;
+    padding: 3%;
+    background: $colorblock;
+    border-radius: 20px;
+    margin-bottom: 3%;
+    backdrop-filter: blur(10px);
+}
+
+.prep_text {
+    font-size: 30px;
+    color: $colblack;
+    font-weight: bold;
+    margin-bottom: 5%;
+}
+
+.text_info {
+    font-size: 20px;   
+    text-align: justify;
+}
+
+.text_info2 {
+    margin-top: 25px;
+    font-size: 20px;   
+    text-align: justify;
+}
+
+.end {
+    font-size: 20px;
+    font-weight: bold;
+    margin-top: 5%;
+}
+
+.icon {
+    width: 30px;
+    height: 30px;
+    margin: 10px;
+}
+
+.block_footer {
+    display: flex;
+    align-items: $poscenter;
+    justify-content: $poscenter;
+    width: $percentages100;
+    height: 150px;
+    background: $colorblock;
+    color: $colblack;
+    border-radius: 20px 20px 0 0;
+}
+
+.text_footer {
+    color:  rgb(30, 30, 30);
+    font-weight: bold;
+    font-size: 24px;
+    margin-top: 20px;
+}
+
+.center_footer {
+    display: flex;
+    flex-direction: column;
+    align-items: $poscenter;
+    justify-content: $poscenter;
+}
+
+.togohomepage {
+    margin-bottom: 50px;
+    font-size: 20px;
+    color: white;
+    background-color: transparent;
+    border: none;
+    font-weight: bold;
+    text-decoration: none;
+    width: auto;
+    height: auto;
+    padding: 1%;
+    border-radius: 15px;
+}
+
+html {
+    margin: 0;
+    scroll-behavior: smooth;
+    
+}
+body {
+    margin: 0;
+    margin-left: $px150;
+    margin-right: $px150;
+    padding: 0;
+    font-family: 'Manrope';    
+}

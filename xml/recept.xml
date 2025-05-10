@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="../xslt/recept.xslt"?>
+<info>
+   <back>
+      <url1>../img/one.png</url1>
+   </back>
+   <span>Блюдо дня</span>
+   <recept>
+      <namerecept>Тосты с Лососем и Яичницей</namerecept>
+      <span>Ингредиенты</span>
+      <img src="../img/one.png"/>
+      <one>4 ломтика ржаного хлеба</one>
+      <two>200 г копченого лосося</two>
+      <three>4 яйца</three>
+      <four>2 столовые ложки молока</four>
+      <five>Свежая зелень (по желанию)</five>
+      <prepar_text>Способ приготоволения</prepar_text>
+      <preparation>
+         Начните с обжаривания ломтиков ржаного хлеба в тостере или на сковороде до золотистой корочки. 
+         В миске взбейте 4 яйца с 2 столовыми ложками молока, добавьте соль и перец. 
+         На сковороде с небольшим количеством масла разбейте яичную смесь и готовьте на среднем огне, постоянно помешивая, до желаемой консистенции.
+      </preparation>
+      <preparation2>
+         На каждый обжаренный ломтик хлеба выложите несколько ломтиков копченого лосося, а сверху добавьте яичницу. 
+         Посыпьте зеленью по желанию и подавайте тосты теплым. 
+      </preparation2>
+      <supply>Приятного аппетита!</supply>
+   </recept>
+   <footer>
+      <span>Мы в соц.сетях</span>
+      <img1 src="../img/facebook.svg"/>
+      <img2 src="../img/instagram.svg"/>
+      <img3 src="../img/youtube.svg"/>
+   </footer>
+   <text_button>Вернуться на главную</text_button>
+</info>

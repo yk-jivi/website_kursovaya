@@ -1,0 +1,38 @@
+html {
+    margin: 0;
+    scroll-behavior: smooth;
+    
+}
+body {
+    margin: 0;
+    margin-left: 150px;
+    margin-right: 150px;
+    padding: 0;
+    font-family: 'Manrope';
+    background: linear-gradient(to bottom, #ffffff, #f8f5f1, #f0ebe3);
+    
+}
+
+.lider_div {
+    width: auto;
+    padding-left: 1%;
+    padding-right: 1%;
+    height: auto;
+    background-color: rgba(47, 47, 47, 0.1);
+    backdrop-filter: blur(10px);
+    background-image: radial-gradient(circle, #aaaaaa 1px, transparent 1px);
+    background-size: 20px 20px;
+}
+
+.lider_nav {
+    width: auto;
+    padding-left: 10px;
+    padding-right: 10px;
+    height: auto;
+    background-color: rgba(47, 47, 47, 0);
+    backdrop-filter: blur(10px);
+}
+
+.not_shadow {
+    box-shadow: none;
+}

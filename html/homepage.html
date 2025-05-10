@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Главная | Рецепты удовольствия</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&display=swap" rel="stylesheet">
+
+    <link href="../css/body.css" rel="stylesheet" media="all">
+    <link href="../css/nav_and_footer_homepage.css" rel="stylesheet" media="all">
+    <link href="../css/main_homepage.css" rel="stylesheet" media="all">
+    <link href="../css/homepage_adaptive.css" rel="stylesheet" media="all">
+
+    <script src="../js/homepage.js"></script>
+</head>
+<body>
+    <div class="lider_div">
+        
+    <nav class="nav_center">
+        <div class="nav">
+            <span class="lider_text">Рецепты удовольствия</span>
+        </div>
+    </nav>
+
+    <main class="main_center"> 
+
+        <div class="container">
+            <div class="hover-image">
+                <a href="../xml/recept.xml"><img class="hover-image lider_img" src="/img/one.png"></a>
+            </div>
+            <div class="text_container">
+                <span class="text_begin_not_margin">Добро пожаловать</span>
+                <span class="text_two">Здесь всегда вкусно!</span>
+                <span class="text_begin">Блюдо дня</span>
+                <div class="hover-image">
+                    <button id="lider_element" class="look">Посмотреть рецепт</button>
+                </div>
+            </div>
+        </div>
+
+        
+        <!-- Завтрак -->
+        <div class="container">
+            <div class="flex_bloсk">
+                <a href="../xml/breakfast_lider.xml"><img class="img_element" src="/img/breakfast.png"></a>
+                <div class="text_container">
+                    <span class="text_begin_not_margin">Завтрак</span>
+                    <span class="text_two">Йогурт с бананом и миндалем</span>
+                    <div class="hover-image">
+                        <button id="breakfast" class="look_breakfast">Посмотреть рецепт</button>
+                    </div>
+                </div>
+                <a href="../xml/breakfast_lider.xml"><img class="img_element_two" src="/img/breakfast.png"></a>
+            </div>
+        </div>
+
+        <div class="recepts">
+            <div class="recept">
+                <div class="hover-image">
+                   <img id="breakfast1" class="img_recept" class="hover-image" src="/img/breakfast1.png">
+                </div>
+             
+                <span class="name_img">Овсянка с бананом и черникой</span>
+            </div>
+
+            <div class="recept">
+                <div class="hover-image">
+                    <img id="breakfast2" class="img_recept" src="/img/breakfast2.png">
+                </div>
+                <a href="#"><span class="name_img">Тосты с бананом и клубникой</span></a>
+            </div>
+        </div>
+
+
+        <!-- Обед -->
+        <div class="container">
+            <div class="flex_bloсk">
+                <a href="../xml/lunch_lider.xml"><img class="img_element2" src="/img/lunch.png"></a>
+                <div class="text_container2">
+                    <span class="text_begin_not_margin">Обед</span>
+                    <span class="text_two">Куриное филе с гречкой и салатом</span>
+                    <div class="hover-image">
+                        <button id="lunch" class="look_lunch">Посмотреть рецепт</button>
+                    </div>
+                </div>
+                <a href="../xml/lunch_lider.xml"><img class="img_element_two2" src="/img/lunch.png"></a>
+            </div>
+        </div>
+
+        <div class="recepts">
+            <div class="recept">
+                <div class="hover-image">
+                    <img id="lunch1" class="img_recept" src="/img/two.png">
+                </div>
+                <span class="name_img">Креветки с рисом и авокадо</span>
+            </div>
+
+            <div class="recept">
+                <div class="hover-image">
+                    <img id="lunch2" class="img_recept" src="/img/two1.png">
+                </div>
+               <span class="name_img">Курица с булгуром и овощами</span>
+            </div>
+        </div>
+
+
+        <!-- Ужин -->
+        <div class="container">
+            <div class="flex_bloсk">
+                <a href="../xml/dinner_lider.xml"><img class="img_element" src="/img/dinner.png"></a>
+                <div class="text_container3">
+                    <span class="text_begin_not_margin">Ужин</span>
+                    <span class="text_two">Говядина с картофельным пюре и спаржей</span>
+                    <div class="hover-image">
+                        <button id="dinner" class="look_dinner">Посмотреть рецепт</button>
+                    </div>
+                </div>
+                <a href="../xml/dinner_lider.xml"><img class="img_element_two" src="/img/dinner.png"></a>
+            </div>
+        </div>
+
+        <div class="recepts margin">
+            <div class="recept">
+                <div class="hover-image">
+                    <a href="../xml/dinner1.xml"><img class="img_recept" src="/img/dinner1.png"></a>
+                </div>
+                <span class="name_img">Салат с курицей, авокадо<br> и яйцом</span>
+            </div>
+
+            <div class="recept">
+                <div class="hover-image">
+                    <a href="../xml/dinner2.xml"><img class="img_recept" src="/img/dinner2.png"></a>
+                </div>
+                <span class="name_img">Жареное яйцо со шпинатом<br> и грибами</span>
+            </div>
+        </div>
+        <button id="up" class="up">Переместиться вверх страницы</button>
+    </main>
+
+
+    <footer>
+        <div class="block_footer">
+            <span class="text_footer">Мы в соц.сетях</span>
+            <div>
+                <img id="facebook" class="icon not_shadow" src="/img/facebook.svg">
+                <img id="insta" class="icon not_shadow" src="/img/instagram.svg">
+                <img id="youtube" class="icon not_shadow" src="/img/youtube.svg">
+            </div>
+        </div>
+    </footer>
+</div>
+</body>
+</html>

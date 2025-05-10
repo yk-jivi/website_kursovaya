@@ -1,0 +1,16 @@
+$marginrl: 150px;
+$null: 0;
+
+html {
+    margin: $null;
+    scroll-behavior: smooth;
+}
+
+body {
+    margin: $null;
+    padding: $null;
+    margin-left: $marginrl;
+    margin-right: $marginrl;
+    font-family: 'Manrope';
+  
+}
